@@ -19,7 +19,6 @@ const AiOutputWindow = ({ outputDetails }) => {
     console.log(response);
     return response.choices[0].message.content;
   }
-
   const [solvedSolution, setSolvedSolution] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
